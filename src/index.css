@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.generalWrapper{
+  display:inline-grid;
+  width:960px;
+  height:auto;
+  padding:25px 0px 25px 0px;
+  text-align: center;
+  font-family: monospace
+}
+
+.generalWrapper button{
+  font-family: inherit;
+  font-weight:bold;
+  font-size:15px;
+  width:300px;
+  color:#000;
+  padding:20px;
+  border:none;
+  border-radius:5px;
+  background: #61dafb;
+  cursor:pointer;
+  margin: 10px auto;
+  transition: 0.4s;
+}
+
+.generalWrapper button:hover{background: #98e3f7}
+
+.generalWrapper .videoThumb{padding:20px 0 0 0}
